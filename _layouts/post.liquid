@@ -61,8 +61,8 @@ layout: default
   <article class="post-content">
     {% if page.toc and page.toc.beginning %}
       <div id="table-of-contents">
-<!-- TOC not supported on GitHub Pages. Remove or replace. -->
-      </div>
+{% toc %}
+</div>
       <hr>
     {% endif %}
     <div id="markdown-content">
